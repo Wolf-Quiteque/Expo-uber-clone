@@ -3,6 +3,7 @@
     "name": "Voyage-demo",
     "description": "Voyage demo app",
     "scheme": "Voyage-demo",
+    "owner": "mq3",
     "slug": "Voyage-demo",
     "privacy": "public",
     "version": "0.0.1",
