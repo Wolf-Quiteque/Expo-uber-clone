@@ -3,11 +3,14 @@
     "name": "Voyage-demo",
     "description": "Voyage demo app",
     "scheme": "voyage-demo",
-     "owner": "mq3",
+    "owner": "mq3",
     "slug": "Voyage-demo",
     "privacy": "public",
     "version": "0.0.1",
-    "platforms": ["android", "ios"],
+    "platforms": [
+      "android",
+      "ios"
+    ],
     "githubUrl": "https://github.com/Wolf-Quiteque/Expo-uber-clone",
     "orientation": "portrait",
     "primaryColor": "#000000",
@@ -17,13 +20,26 @@
       "image": "src/assets/splash.png",
       "resizeMode": "contain"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "versionCode": 1
     },
     "ios": {
       "buildNumber": "0.0.1",
       "supportsTablet": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "54bfb0ea-db29-4d34-b989-d16981b83096"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/54bfb0ea-db29-4d34-b989-d16981b83096"
     }
   }
 }
